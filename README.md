@@ -23,7 +23,7 @@ This project uses the OR-Tools library to solve a student group assignment probl
 You can install the required packages using pip:
 
 ```
-pip install pandas ortools
+pip install requirements.txt
 ```
 
 ## Usage
