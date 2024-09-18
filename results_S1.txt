@@ -1,0 +1,23 @@
+Objective function value is 1.0
+
+Group 1 is formed by:
+Katherine Johnson
+Leonardo da Vinci
+
+Group 2 is formed by:
+Bernard Riemann
+Francis Bacon
+
+Group 3 is formed by:
+Carolina Herschel
+Isaac Newton
+
+Group 4 is formed by:
+Henri Poincare
+John von Neumann
+
+Group 5 is formed by:
+Ada Lovelace
+Enrico Fermi
+
+Execution time: 0.49 seconds
