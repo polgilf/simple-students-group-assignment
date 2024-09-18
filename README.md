@@ -61,15 +61,15 @@ The script generates two output files:
 
 ## Example Usage
 
-1. Input: 'students_data_example.xlsx'
-2. In 'main.py':
+1. Input: (`students_data_example.xlsx`) 
+2. In (`main.py`):
    ```python
    number_of_groups_per_size = {2: 5}  # 5 groups of 2 students
    ```
 3. Run script
 4. Output: 
-   - 'results_S1.txt': Group assignments and objective value
-   - 'students_group_assignments.xlsx': New groups and updated pairings
+   - (`results_S1.txt`): Group assignments and objective value
+   - (`students_group_assignments.xlsx`): New groups and updated pairings
 
 The optimizer minimizes repeated pairings based on historical data.
 
