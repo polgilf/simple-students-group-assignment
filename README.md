@@ -51,29 +51,27 @@ The input Excel file should contain two sheets:
 
 The script generates two output files:
 
-1. A text file (`results_{session}.txt`) containing:
+1. A text file `results_{session}.txt` containing:
    - The objective function value
    - Group assignments
    - Execution time
-2. An Excel file (`students_group_assignments.xlsx`) containing:
+2. An Excel file `students_group_assignments.xlsx` containing:
    - A sheet with the new group assignments
    - An updated historical pairings matrix
 
 ## Example Usage
 
-1. Input: (`students_data_example.xlsx`) 
-2. In (`main.py`):
+1. Input: `students_data_example.xlsx` 
+2. In `main.py`:
    ```python
    number_of_groups_per_size = {2: 5}  # 5 groups of 2 students
    ```
 3. Run script
 4. Output: 
-   - (`results_S1.txt`): Group assignments and objective value
-   - (`students_group_assignments.xlsx`): New groups and updated pairings
+   - `results_S1.txt`: Group assignments and objective value
+   - `students_group_assignments.xlsx`): New groups and updated pairings
 
 The optimizer minimizes repeated pairings based on historical data.
-
-[Remaining sections of the README]
 
 ## MILP Formulation
 
