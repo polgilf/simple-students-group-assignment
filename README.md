@@ -8,6 +8,7 @@ This repository contains a Mixed Integer Linear Programming (MILP) model to opti
 - [Usage](#usage)
 - [Input Data](#input-data)
 - [Output](#output)
+- [Example Usage](#example-usage)
 - [MILP Formulation](#milp-formulation)
 
 ## Overview
@@ -57,6 +58,22 @@ The script generates two output files:
 2. An Excel file (`students_group_assignments.xlsx`) containing:
    - A sheet with the new group assignments
    - An updated historical pairings matrix
+
+## Example Usage
+
+1. Input: 'students_data_example.xlsx'
+2. In 'main.py':
+   ```python
+   number_of_groups_per_size = {2: 5}  # 5 groups of 2 students
+   ```
+3. Run script
+4. Output: 
+   - 'results_S1.txt': Group assignments and objective value
+   - 'students_group_assignments.xlsx': New groups and updated pairings
+
+The optimizer minimizes repeated pairings based on historical data.
+
+[Remaining sections of the README]
 
 ## MILP Formulation
 
